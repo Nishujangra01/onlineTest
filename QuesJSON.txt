@@ -1,0 +1,42 @@
+[
+{
+"ques":"_____ is used to find and fix bugs in the Java programs.",
+"choice1":"JVM",
+"choice2":"JRE",
+"choice3":"JDK",
+"choice4":"JDB",
+"ans":"JDB"
+},
+{
+"ques":"What is the return type of the hashCode() method in the Object class?",
+"choice1":"Object",
+"choice2":"int",
+"choice3":"long",
+"choice4":"void",
+"ans":"int"
+},
+{
+"ques":"Which one of the following is not a Java feature?",
+"choice1":"Object-oriented",
+"choice2":"Use of pointers",
+"choice3":"Portable",
+"choice4":"Dynamic and Extensible",
+"ans":"Use of pointers"
+},
+{
+"ques":"Which of these cannot be used for a variable name in Java?",
+"choice1":"identifier & keyword",
+"choice2":"identifier",
+"choice3":"keyword",
+"choice4":"none of the mentioned",
+"ans":"keyword"
+},
+{
+"ques":"What is the extension of java code files?",
+"choice1":".js",
+"choice2":".txt",
+"choice3":".class",
+"choice4":".java",
+"ans":".java"
+}
+]
