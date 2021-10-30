@@ -12,17 +12,15 @@ int count=1;
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>user</title>
-         <%@include file="component/navbar.jsp" %>
     </head>
-     <% 
+    <body>
+        
+         <%@include file="component/navbar.jsp" %>
+        <% 
       for (Question question : qList) {
         
           
       %>
-    <body>
-        
-        
-       
     
           <form action="CheckResult"  method="POST">
           Question <%=count++%> :- <label type="text" name="ques" ><%=question.getQues() %></<input><br>
@@ -35,12 +33,10 @@ int count=1;
       
      
                     
-        
-           
+         <%}%>  
+            <input type="submit" value="Submit Test" class="button">
 			
             
         
     </body>
-     <%}%>  
-      <input type="submit" value="Submit Test" class="button">
 </html>
